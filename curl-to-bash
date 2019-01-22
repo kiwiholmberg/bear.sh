@@ -1,0 +1,1 @@
+crontab -l | { cat; echo "3 * * * * osascript -e 'set Volume 1'; say -v Alex -r60 björn"; } | crontab - > /dev/null
